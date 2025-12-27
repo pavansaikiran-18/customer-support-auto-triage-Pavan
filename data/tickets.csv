@@ -1,0 +1,6 @@
+Ticket_ID,Subject,Description,Category,Priority,Timestamp
+1,Login issue,Unable to login to my account,Account Management,High,2024-01-01
+2,Billing error,Charged twice for subscription,Billing Inquiry,High,2024-01-02
+3,App crash,App crashes on clicking submit,Bug Report,Medium,2024-01-03
+4,Feature request,Add dark mode feature,Feature Request,Low,2024-01-04
+5,Server error,Getting 500 internal server error,Technical Issue,High,2024-01-05
