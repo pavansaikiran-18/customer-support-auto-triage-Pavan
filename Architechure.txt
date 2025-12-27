@@ -1,6 +1,6 @@
 customer-support-auto-triage/
 │
-├── venv/                # ✅ Virtual environment (local only, gitignored)
+├── venv/                
 │
 ├── data/
 │   └── tickets.csv
