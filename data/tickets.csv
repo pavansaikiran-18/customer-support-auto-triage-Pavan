@@ -4,3 +4,34 @@ Ticket_ID,Subject,Description,Category,Priority,Timestamp
 3,App crash,App crashes on clicking submit,Bug Report,Medium,2024-01-03
 4,Feature request,Add dark mode feature,Feature Request,Low,2024-01-04
 5,Server error,Getting 500 internal server error,Technical Issue,High,2024-01-05
+
+Ticket_ID,Subject,Description,Category,Priority,Timestamp
+1,Login issue,Unable to login to my account even after password reset,Account Management,High,2024-01-01
+2,Password reset failed,Reset link not working for my account,Account Management,Medium,2024-01-02
+3,Profile update error,Unable to update phone number in profile,Account Management,Low,2024-01-03
+4,Account locked,My account got locked after multiple attempts,Account Management,High,2024-01-04
+5,Email not verified,Verification email not received,Account Management,Medium,2024-01-05
+
+6,Billing error,Charged twice for monthly subscription,Billing Inquiry,High,2024-01-06
+7,Refund issue,Refund not processed even after cancellation,Billing Inquiry,High,2024-01-07
+8,Invoice missing,Unable to download invoice from dashboard,Billing Inquiry,Medium,2024-01-08
+9,Payment failed,Transaction failed but amount deducted,Billing Inquiry,High,2024-01-09
+10,Subscription charged,Charged after cancelling subscription,Billing Inquiry,Medium,2024-01-10
+
+11,App crash,Application crashes on clicking submit button,Bug Report,High,2024-01-11
+12,UI bug,Text overlapping on mobile screen,Bug Report,Low,2024-01-12
+13,Notification bug,Not receiving push notifications,Bug Report,Medium,2024-01-13
+14,App freezing,App freezes during login process,Bug Report,High,2024-01-14
+15,Data not saving,Form data not saved after submission,Bug Report,Medium,2024-01-15
+
+16,Feature request,Please add dark mode to the application,Feature Request,Low,2024-01-16
+17,New feature suggestion,Add export to PDF option in reports,Feature Request,Low,2024-01-17
+18,Enhancement request,Improve dashboard loading speed,Feature Request,Medium,2024-01-18
+19,UI improvement request,Add customization options to profile page,Feature Request,Low,2024-01-19
+20,Feature enhancement,Provide multi-language support,Feature Request,Medium,2024-01-20
+
+21,Server error,Getting 500 internal server error while accessing app,Technical Issue,High,2024-01-21
+22,API timeout,API requests are timing out frequently,Technical Issue,High,2024-01-22
+23,Database issue,Data not loading due to database error,Technical Issue,High,2024-01-23
+24,Performance issue,Application is very slow during peak hours,Technical Issue,Medium,2024-01-24
+25,Connectivity problem,Unable to connect to backend server,Technical Issue,High,2024-01-25
