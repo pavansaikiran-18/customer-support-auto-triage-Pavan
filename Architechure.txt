@@ -1,0 +1,19 @@
+customer-support-auto-triage/
+│
+├── venv/                # ✅ Virtual environment (local only, gitignored)
+│
+├── data/
+│   └── tickets.csv
+│
+├── model/
+│   └── ticket_classifier.pkl
+│
+├── src/
+│   ├── preprocess.py
+│   ├── train.py
+│   └── predict.py
+│
+├── app.py
+├── requirements.txt
+├── .gitignore
+├── README.md
