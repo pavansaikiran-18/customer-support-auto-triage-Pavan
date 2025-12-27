@@ -1,62 +1,79 @@
-📌 Customer Support Ticket Auto-Triage System
+Customer Support Ticket Auto-Triage System
 
-An end-to-end Machine Learning & NLP project that automatically classifies customer support tickets into predefined categories and enables intelligent ticket routing via a REST API.
+An end-to-end Machine Learning and NLP-based system that automatically classifies customer support tickets and enables intelligent routing through a RESTful API.
 
-This project is designed to reduce manual effort, improve response time, and enhance customer satisfaction.
+This project demonstrates professional ML engineering practices, including clean architecture, reproducible environments, model evaluation, and API deployment.
 
-🚀 Project Overview
+📌 Overview
 
-Customer support teams often handle a large volume of incoming tickets. Manual triaging is time-consuming and error-prone.
-This system automates the initial ticket classification process using NLP and Machine Learning.
+Customer support teams handle a high volume of tickets daily.
+Manual triaging is time-consuming, inconsistent, and does not scale.
 
-✅ Key Capabilities
+This project automates the initial ticket classification process, helping organizations:
 
-Automatic ticket classification
+Reduce manual effort
 
-NLP-based text preprocessing
+Improve response time
 
-Real-time prediction using REST API
+Enhance customer satisfaction
 
-Clean, modular, production-ready architecture
+❓ Problem Statement
 
-🎯 Objectives
+Manual categorization of support tickets:
 
-Automate customer support ticket triage
+Is inefficient at scale
 
-Classify tickets into predefined categories
+Introduces human error
 
-Reduce manual intervention
+Slows down issue resolution
 
-Enable real-time classification through an API
+✅ Solution
+
+The system uses Natural Language Processing (NLP) and Machine Learning to automatically classify tickets into predefined categories and expose predictions via a REST API.
 
 🧠 Ticket Categories
 
 The model classifies tickets into the following categories:
 
-Bug Report – Application defects or crashes
+Bug Report
 
-Feature Request – Suggestions for new features or enhancements
+Feature Request
 
-Technical Issue – Server, API, or performance issues
+Technical Issue
 
-Billing Inquiry – Payments, invoices, refunds, subscriptions
+Billing Inquiry
 
-Account Management – Login, profile, or account-related issues
+Account Management
+
+🏗️ System Architecture
+Client / User
+      ↓
+Flask REST API
+      ↓
+Text Preprocessing (NLP)
+      ↓
+TF-IDF Vectorization
+      ↓
+ML Classification Model
+      ↓
+Predicted Ticket Category
 
 📁 Project Structure
 customer-support-auto-triage/
 │
-├── venv/                 # Virtual environment (ignored in Git)
 ├── data/
-│   └── tickets.csv       # Training dataset
+│   └── tickets.csv
+│
 ├── model/
 │   ├── ticket_classifier.pkl
 │   └── model_metrics.json
+│
 ├── src/
-│   ├── preprocess.py     # NLP preprocessing
-│   ├── train.py          # Model training & evaluation
-│   └── predict.py        # Local inference
-├── app.py                # Flask REST API
+│   ├── preprocess.py
+│   ├── train.py
+│   └── predict.py
+│
+├── app.py
 ├── requirements.txt
 ├── .gitignore
 └── README.md
@@ -67,7 +84,9 @@ Language: Python 3.8+
 
 Libraries:
 
-pandas, numpy
+pandas
+
+numpy
 
 scikit-learn
 
@@ -77,16 +96,18 @@ Flask
 
 joblib
 
-ML Model: Logistic Regression
+Model: Logistic Regression
 
 Vectorization: TF-IDF
 
+Version Control: Git
+
 ⚙️ Setup Instructions
-1️⃣ Clone the repository
+1️⃣ Clone the Repository
 git clone https://github.com/pavansaikiran-18/customer-support-auto-triage-Pavan.git
 cd customer-support-auto-triage
 
-2️⃣ Create & activate virtual environment
+2️⃣ Create and Activate Virtual Environment
 python -m venv venv
 
 
@@ -99,26 +120,23 @@ macOS / Linux
 
 source venv/bin/activate
 
-3️⃣ Install dependencies
+3️⃣ Install Dependencies
 pip install -r requirements.txt
 
 🧪 Model Training
-
-Run the training pipeline:
-
 cd src
 python train.py
 cd ..
 
-Output:
+Outputs
 
-Trained model → model/ticket_classifier.pkl
+Trained model: model/ticket_classifier.pkl
 
-Evaluation metrics → model/model_metrics.json
+Evaluation metrics: model/model_metrics.json
 
 📊 Model Evaluation
 
-Metrics used:
+The model is evaluated using:
 
 Accuracy
 
@@ -128,9 +146,9 @@ Recall
 
 F1-Score
 
-Metrics are saved as JSON for reproducibility and reporting.
+Evaluation metrics are stored for reproducibility and reporting.
 
-🌐 Run the REST API
+🌐 Running the API
 python app.py
 
 
@@ -153,44 +171,35 @@ Response
   "predicted_category": "Billing Inquiry"
 }
 
-🧠 Architecture Overview
-Client
-  ↓
-Flask REST API
-  ↓
-Text Preprocessing (NLP)
-  ↓
-TF-IDF Vectorizer
-  ↓
-ML Classifier
-  ↓
-Predicted Ticket Category
+🧩 Best Practices Followed
 
-📌 Git & Environment Management
+Modular and scalable project structure
 
-Virtual environment (venv/) is ignored using .gitignore
+Reproducible environments using requirements.txt
 
-Dependencies are tracked via requirements.txt
+Clean Git history with conventional commits
 
-Clean commit history following conventional commits
+.gitignore for virtual environment and artifacts
 
-🧾 Resume-Ready Description
+Separation of training and inference logic
 
-Developed an end-to-end ML-based Customer Support Ticket Auto-Triage system using NLP and Logistic Regression, enabling automated ticket classification and real-time routing via a REST API.
+📝 Resume-Ready Summary
+
+Built a production-ready NLP-based Machine Learning system to automatically classify customer support tickets. Implemented end-to-end ML pipeline with evaluation and deployed predictions via a Flask REST API.
 
 🔮 Future Enhancements
 
 Priority prediction
 
-Deep learning models (BERT / Transformers)
+Transformer-based models (BERT)
 
-Dashboard for analytics
+Analytics dashboard
 
-Cloud deployment (Docker, AWS/GCP)
+Docker and cloud deployment
 
 Multilingual ticket support
 
 👨‍💻 Author
 
 Nerella Pavan Sai Kiran
-AI / ML • Data Analytics • Software Development
+Machine Learning • Data Analytics • Software Development
